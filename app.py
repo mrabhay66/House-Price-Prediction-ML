@@ -34,7 +34,13 @@ model.fit(X,y)
 house_price = model.predict(final_value)
 
 with st.spinner('Predicting House Price'):
-  time.sleep(3)
+  time.sleep(1)
+
+msg = f'''House Price is: ${house_price*100000}'''
 st.write(house_price)
+st.success(msg)
+
+st.markdown('''** Design and Developed By: Abhay Vishwakarma**''')
+
 
 
