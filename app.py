@@ -19,4 +19,5 @@ for i in X:
   ans = st.sidebar.slider(f'Select {i} value')
   all_values.append(ans)
 
-st.write(all_value)
+st.write(all_values)
+
