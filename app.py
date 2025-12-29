@@ -14,7 +14,7 @@ X = df.iloc[:,:-3]
 y = df.iloc[:,-1]
 
 st.sidebar.title('Select House Features')
-st.sidebar.image('https://i.pinimg.com/originals/93/c7/44/93c744bcde1780c94bb1d3f03991f8a7.gif')
+st.sidebar.image('https://blog.architizer.com/wp-content/uploads/Untitled-design.gif')
 all_values = []
 for i in X:
   min_value = int(X[i].min())
@@ -45,6 +45,7 @@ st.write(house_price)
 st.success(msg)
 
 st.markdown('''** Design and Developed By: Abhay Vishwakarma**''')
+
 
 
 
