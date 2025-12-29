@@ -14,7 +14,7 @@ X = df.iloc[:,:-3]
 y = df.iloc[:,-1]
 
 st.sidebar.title('Select House Features')
-st.sidebar.image('https://www.gif-vif.com/desi_gifs/saiyara.gif')
+st.sidebar.image('https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyZnp1a2JmOWkydzcybzFnNHQ0cmx0NmNlajlnbzR0M293eGNjem9wbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ee1i8QNLQO0UnlKjr7/giphy.gif')
 all_values = []
 for i in X:
   min_value = int(X[i].min())
